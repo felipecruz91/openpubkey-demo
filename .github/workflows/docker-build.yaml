@@ -10,7 +10,7 @@ on:
 
 env:
   # github.repository as <account>/<repo>
-  IMAGE_NAME: openpubkey/demo
+  IMAGE_NAME: felipecruz91/openpubkey-demo
   SHA: ${{ github.event.pull_request.head.sha || github.event.after }}
   DOCKERFILE_PATH: Dockerfile
 
